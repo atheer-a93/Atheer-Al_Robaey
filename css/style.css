@@ -298,7 +298,7 @@ transform: translate(0px,-2px) rotate(45deg);
 
 /* ........................................................ */
 /* media 575px*/
-@media screen and (max-width: 575px) {
+@media screen (min-width: 290px) and (max-width: 575px) {
     .root{
         --padding: 1.5rem;
     }
