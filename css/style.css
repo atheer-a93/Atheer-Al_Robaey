@@ -256,6 +256,7 @@ text-decoration: none;
 /* menu */
 #menu{
     display: none;
+    margin: auto 0;
     position: relative;
     appearance: none;
     border: none;
@@ -427,6 +428,22 @@ transform: translate(0px,-2px) rotate(45deg);
     width: 100%;
     text-align: center;
   }
+
+  .Home .btnnn{
+    position: relative;
+    bottom: 5px;
+    right: 5%;
+}
+  .btnn{
+    background-color: rgb(61, 61, 61);
+    color: var(--lightcolor);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.81rem 1.87rem;
+    border-radius: 30px;
+    border: 2px solid var(--primarycolor);
+    transition: 0.4s;
+}
 }
 /* ........................................................ */
 /* media screen and (min-width: 500px) and (max-width: 850px) */
@@ -570,6 +587,21 @@ transform: translate(0px,-2px) rotate(45deg);
     width: 100%;
     text-align: center;
   }
+  .Home .btnnn{
+    position: relative;
+    bottom: 5px;
+    right: 5%;
+}
+  .btnn{
+    background-color: rgb(61, 61, 61);
+    color: var(--lightcolor);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.81rem 1.87rem;
+    border-radius: 30px;
+    border: 2px solid var(--primarycolor);
+    transition: 0.4s;
+}
 }
 
 
