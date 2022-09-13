@@ -39,7 +39,7 @@ p{
 }
 *{
     margin: 0;
-    padding: 0;
+    padding: 1;
     box-sizing: border-box;
 }
 html{
@@ -294,7 +294,7 @@ transform: translate(0px,-2px) rotate(45deg);
 
 /* ........................................................ */
 /* media screen and (min-width: 375px) and (max-width: 812px) */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 580px) {
     .root{
         --padding: 1.5rem;
     }
@@ -349,11 +349,12 @@ transform: translate(0px,-2px) rotate(45deg);
         position: fixed;
         top: 1.5rem;
         right: 0;
-        width: 50vw;
-        height: 35vh;
+        width: 70vw;
+        height: 50vh;
         background: var(--bgcolor-2);
         border-top-left-radius: 30px;
         border-bottom-left-radius: 30px;
+        
     }
     nav ul.is-active{
         display: block;
@@ -392,7 +393,7 @@ transform: translate(0px,-2px) rotate(45deg);
     }
     .Services{
         width: 100%;
-        height: 200vh;
+        height: 250vh;
         background-color: var(--bgcolor-1);
         padding: 2rem var(--padding);
     }
@@ -429,7 +430,7 @@ transform: translate(0px,-2px) rotate(45deg);
 }
 /* ........................................................ */
 /* media screen and (min-width: 500px) and (max-width: 850px) */
-@media screen and (min-width: 401px) and (max-width: 850px) {
+@media screen and (min-width: 501px) and (max-width: 850px) {
     .root{
         --padding: 1.5rem;
     }
@@ -487,8 +488,8 @@ transform: translate(0px,-2px) rotate(45deg);
         position: fixed;
         top: 1.5rem;
         right: 0;
-        width: 50vw;
-        height: 75vh;
+        width: 70vw;
+        height: 90vh;
         background: var(--bgcolor-2);
         border-top-left-radius: 30px;
         border-bottom-left-radius: 30px;
@@ -529,13 +530,13 @@ transform: translate(0px,-2px) rotate(45deg);
     }
     .Services{
         width: 100%;
-        height: 270vh;
+        height: 300vh;
         background-color: var(--bgcolor-1);
         padding: 2rem var(--padding);
     }
     .Services .text-center{
         position: relative;
-        bottom: -70px;
+        bottom: 0px;
     }
     
     .skills .contener-imags img{
@@ -548,7 +549,7 @@ transform: translate(0px,-2px) rotate(45deg);
     }
     .skills .container-skills{
         width: 100%;
-        height: 130vh;
+        height: 150vh;
         display: flex;
         align-items: center;
         justify-content: center;
