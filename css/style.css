@@ -294,7 +294,7 @@ transform: translate(0px,-2px) rotate(45deg);
 
 /* ........................................................ */
 /* media screen and (min-width: 375px) and (max-width: 812px) */
-@media screen and (min-width: 375px) and (max-width: 812px) {
+@media screen and (max-width: 400px) {
     .root{
         --padding: 1.5rem;
     }
@@ -429,7 +429,7 @@ transform: translate(0px,-2px) rotate(45deg);
 }
 /* ........................................................ */
 /* media screen and (min-width: 500px) and (max-width: 850px) */
-@media screen and (min-width: 500px) and (max-width: 850px) {
+@media screen and (min-width: 401px) and (max-width: 850px) {
     .root{
         --padding: 1.5rem;
     }
